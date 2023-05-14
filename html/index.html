@@ -121,8 +121,15 @@
 								<a href="#">TOM N TOMS</a>
 								<ul class="depth2">
 									<li><a href="#">브랜드소개</a></li>
+										<ul class="depth3">
+											<li><a href="#">TOM N TOMS</a></li>
+											<li><a href="#">Coffee & Pretzel</a></li>
+											<li><a href="#">BrandHistory</a></li>
+											<li><a href="#">Global TOM N TOMS</a></li>
+										</ul>
 									<li><a href="#">채용안내</a></li>
-									<li><a href="#">찾아오시는길</a></li>
+									<li><a href="#">공지사항</a></li>
+									<li><a href="#">찾아오시는 길</a></li>											
 								</ul>
 							</li>
 						</ul>
@@ -463,10 +470,37 @@
 			
 			function scrollFunction() {
 				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-					$(".scroll-btn").addClass("on")
+					document.getElementById("topBtn").style.display = "block";
 				} else {
-					$(".scroll-btn").removeClass("on")
+					document.getElementById("topBtn").style.display = "none";
 				}
+			}
+			
+			// Top 버튼 클릭 시 부드럽게 상단으로 이동
+			function topFunction() {
+			// 현재 스크롤 위치
+			var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+			
+			// 상단으로 이동할 거리
+			var scrollStep = document.documentElement.scrollTop
+			
+			// 애니메이션 함수
+			function smoothScroll() {
+				var scrollAmount = document.body.scrollTop
+				
+				// 스크롤 위치 설정
+				document.documentElement.scrollTop = scrollAmount;
+				document.body.scrollTop = scrollAmount;
+				
+				// 애니메이션 종료 여부 확인
+				if (scrollAmount > 0) {
+				// 다음 프레임 요청
+				requestAnimationFrame(smoothScroll);
+				}
+			}
+			
+				// 애니메이션 시작
+				requestAnimationFrame(smoothScroll);
 			}
 		</script>
 	</body>
