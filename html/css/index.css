@@ -362,6 +362,14 @@ FOOTER - S
     border-radius: 50%;
 }
 
+.f-family li:nth-child(5)::before {
+    display: none;
+}
+
+.f-family li:nth-child(8)::before {
+    display: none;
+}
+
 .f-addres {
     font-size: 14px; 
     color: #8a8a8a;
