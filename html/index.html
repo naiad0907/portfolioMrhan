@@ -175,7 +175,7 @@
 						</div>
 					</div>
 					<div class="swiper-pagination"></div>
-					<div id="play-button">
+					<div id="play-button" class="play-button">
 						<span class="material-symbols-outlined">
 							pause
 						</span>
@@ -426,15 +426,17 @@
 			var isPaused = false;
 
 			function togglePlay() {
-			if (isPaused) {
-				mySwiper.autoplay.start(); // 자동재생 다시 시작
-				playButton.innerHTML = '<span class="material-symbols-outlined"> pause </span>'; // 버튼 내용 변경
-			} else {
-				mySwiper.autoplay.stop(); // 자동재생 일시정지
-				playButton.innerHTML = '<span class="material-symbols-outlined"> play_arrow </span>'; // 버튼 내용 변경
+				if (isPaused) {
+					mySwiper.autoplay.start(); // 자동재생 다시 시작
+					playButton.innerHTML = '<span class="material-symbols-outlined"> pause </span>'; // 버튼 내용 변경
+				} else {
+					mySwiper.autoplay.stop(); // 자동재생 일시정지
+					playButton.innerHTML = '<span class="material-symbols-outlined"> play_arrow </span>'; // 버튼 내용 변경
+				}
+				isPaused = !isPaused; // 상태 변경
 			}
-			isPaused = !isPaused; // 상태 변경
-			}
+			// 버튼 클릭 이벤트 리스너 등록
+			playButton.addEventListener('click', togglePlay);
 
 			// 두번째 스와이프
 			var swiper = new Swiper(".main-visual-swiper2 .mySwiper", {
@@ -445,9 +447,6 @@
 					disableOnInteraction: false, // 슬라이드와의 상호작용이 일어날 때 자동 재생 일시정지 비활성화
 				}
 			});
-
-			// 버튼 클릭 이벤트 리스너 등록
-			playButton.addEventListener('click', togglePlay);
 
 			//  세번째 스와이프
 
