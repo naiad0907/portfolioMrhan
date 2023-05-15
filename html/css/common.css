@@ -276,10 +276,12 @@ FOOTER - S
 }
 
 .f-sns-list {
-    display: flex;
-    gap: 7px;
+   width: 200px;  
 }
-
+.f-sns-list a {
+    float: left;
+    
+}
 /* f-sns -e */
 
 /********** 
