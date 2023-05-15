@@ -1,0 +1,292 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&family=Roboto:wght@100;300;400;500&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+/********** 
+COMMON - S 
+**********/
+*, ::before, ::after { box-sizing: border-box;}
+a {text-decoration: none; color: inherit;}
+img {display: block;}
+body { font: 16px/1.2 'Noto Sans KR',"돋움", Dotum, AppleGothic, sans-serif; letter-spacing: -0.5px;}
+.inner { width: 1400px; margin: 0 auto;}
+.hidden {
+    width: 0; height: 0; 
+    font-size: 0; line-height: 0; text-indent: -9999px;
+    position: absolute; left: -9999px;
+    overflow: hidden;
+}
+
+/********** 
+COMMON - E 
+**********/
+
+/********** 
+HEADER - S 
+**********/
+.header {
+    width: 100%; min-width: 1400px; padding-top: 20px;
+    background-color:#ffffff ;
+    position: fixed;left: 0;top: 0; z-index: 99;
+}
+.header .wrapper {
+    float: right;
+    width: 70%;
+}
+.logo {
+    float: left;
+    margin-top: 1px;
+}
+.logo a {
+    display: block;
+    width: 95px; height: 94px;
+    background-image: url(../img/main/logo.png);
+    text-indent: -9999px;
+}
+
+/* TNB -S */
+
+.tnb {
+    float: right;
+    height: 27px; margin-left: 300px;
+    font-weight: 200; font-size: 14px;  color: #666666;line-height: 27px; letter-spacing: -1px;
+}
+.tnb li {
+    float: left;
+    padding: 0 12px;
+    position: relative;
+}
+.tnb li::after{content: "";
+    position: absolute; left: 0;top: 9px;
+    width: 1px; height: 11px;
+    background-color: #c5c5c5;
+}
+.tnb li:first-child::after { display: none;} 
+
+/* TNB -E */
+
+/* GNB -S */
+.nav { float: right}
+.gnb { float: left}
+.gnb .depth1 {
+    float: left;
+    position: relative;
+}
+.gnb .depth1>a {
+    display:block; 
+    height: 66px; padding: 0 20px; 
+    font-size: 20px; line-height: 66px; color: #000000; text-align: center;font-family: 'Roboto';font-weight: 300;
+}
+.gnb .depth1:last-child>a {padding-right: 0;}
+.gnb .depth2 { 
+    display: none;
+    float: left;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: 1px 0px 5px 0px #b4b3b36b;
+    background-color: #ffffff;
+}
+
+.gnb .depth1:nth-child(1) .depth2{
+    width: 150px;
+    padding: 65px 0 42px;
+}
+.gnb .depth1:nth-child(1) .depth2 a {
+    padding: 0 45px 3px 45px;
+}
+.gnb .depth1:nth-child(3) .depth2{
+    width: 180px; height:183px ;
+    padding: 65px 0 42px;
+}
+.gnb .depth1:nth-child(3) .depth2 a {
+    padding: 0 30px 3px 30px;
+}
+.gnb .depth1:nth-child(4) .depth2{
+    width: 201px;height: 328px;
+    padding: 65px 0 42px;
+}
+.gnb .depth1:nth-child(4) .depth2 a {
+    padding: 0 30px 3px 30px;
+}
+.gnb .depth1:nth-child(5) .depth2{
+    width: 790px; height: 349px;
+    padding: 65px 0 42px;
+    margin-left: -76px;
+}
+.gnb .depth1:nth-child(5) .depth2 a {
+    padding: 0 30px 0 30px;
+}
+.gnb .depth1:nth-child(5) .depth2 > li {
+    float: left;
+}
+
+.gnb .depth1:nth-child(5) .depth2>li:nth-child(2) {margin-left: 45px;}
+.gnb .depth1:nth-child(5) .depth2>li:nth-child(3) {margin-left: -14px;}
+.gnb .depth1:nth-child(5) .depth2>li:nth-child(4) {margin-left: 45px;}
+.gnb .depth1:nth-child(5) .depth2>li:nth-child(5) {margin-left: -14px;}
+
+
+.gnb .depth1:nth-child(6) .depth2{
+    left: auto; right: 0;
+    transform: none;
+    width: 410px; height:280px ;
+    padding: 65px 0 42px;
+}
+
+.gnb .depth1:nth-child(6) .depth2 > li {
+    float: left;
+}
+
+.gnb .depth2 a {
+    display: block;
+    margin-bottom: 15px;
+    padding: 0 30px;
+    word-break: keep-all;
+    font-size: 16px;color: #000; font-weight: 500; text-align: left;
+}
+
+.gnb .depth1:hover .depth2 {
+    display: block;
+    
+}
+
+.gnb .depth2 .depth3 a {
+    margin-bottom: 15px;
+    font-size: 14px; line-height: 1.3; color: #666; font-weight: 400;
+}
+
+/* GNB -E */
+
+
+/********** 
+HEADER - E 
+**********/
+
+/********** 
+FOOTER - S 
+**********/
+
+.footer {
+    width: 100%;
+    background-color: #efefef;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    padding: 87px 0 118px;
+    margin: 0 auto;
+}
+
+/* f-service -s */
+
+.service-wrap { width: 363px;}
+
+.service-wrap .service {
+    font-size: 16px; 
+    color: #572a31;
+}
+.service-wrap span {
+    display: block;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #572a31;
+}
+
+.service-wrap  {}
+
+/* f-service -e */
+
+/* f-info -s */
+
+.f-info {
+    width: 700px;
+}
+
+/* f-info -e */
+
+/* f-family -s */
+
+.f-family {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px; 
+    height: 65px;
+} 
+
+.f-family a {
+    font-size: 16px;
+    color: #572a31;
+}
+
+.f-family li {
+    position: relative;
+    padding-right: 26px;
+}
+
+.f-family li::before {
+    content: "";
+    display: block;
+    position: absolute; top: 10px; right: 12px;
+    width: 2px;
+    height: 2px;
+    background-color: #572a31;
+    border-radius: 50%;
+}
+
+.f-family li:nth-child(5)::before {
+    display: none;
+}
+
+.f-family li:nth-child(8)::before {
+    display: none;
+}
+
+/* f-family -e */
+
+/* f-addres -s */
+
+.f-addres {
+    font-size: 14px; 
+    color: #8a8a8a;
+    line-height: 1.6;
+}
+
+.f-addres .f-addres-add {
+    margin-top: 29px;
+}
+
+.f-addres .f-addres-copy {
+    margin-top: 20px;
+}
+
+/* f-addres -e */
+
+/* f-sns -s */
+
+.f-sns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; align-items: flex-start;
+    gap: 20px;
+}
+
+.f-sns .f-sns-follow {
+    padding-top: 11px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.f-sns-list {
+    display: flex;
+    gap: 7px;
+}
+
+/* f-sns -e */
+
+/********** 
+FOOTER - E
+**********/

@@ -1,23 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&family=Roboto:wght@100;300;400;500&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
 
 
 /* sub1 */
 
-.inner {
-    max-width: 1430px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-
 
 .drink {
     width: 100%; height: 420px;
-    background: url(/img/sub1/banner_bg_drink.jpg);
+    background-image: url(../img/sub1/banner_bg_drink.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -49,7 +40,7 @@
 
 .food {
     width: 100%; height: 420px;
-    background: url(/img/sub1/banner_bg_food.jpg);
+    background: url(../img/sub1/banner_bg_food.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -81,7 +72,7 @@
 
 .md {
     width: 100%; height: 420px;
-    background: url(/img/sub1/banner_bg_md.jpg);
+    background: url(../img/sub1/banner_bg_md.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -122,7 +113,7 @@
 
 .event {
     width: 100%; height: 480px;
-    background-image: url(/img/sub1/sv_2.jpg);
+    background-image: url(../img/sub1/sv_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -148,23 +139,3 @@
    
 }
 
-
-
-/*  
-    css 순서 한번 확인할것
-
-    box - 모양 - 폰트
-
-    box
-    display, position, overflow ...
-
-    모양
-    width, padding, margin ....
-
-    배경
-    background ... 
-
-    폰트
-    font-size , line-height , color
-
-*/
