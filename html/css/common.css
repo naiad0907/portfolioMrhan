@@ -264,24 +264,22 @@ FOOTER - S
 /* f-sns -s */
 
 .f-sns {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; align-items: flex-start;
-    gap: 20px;
+    float: right;
 }
 
 .f-sns .f-sns-follow {
-    padding-top: 11px;
+    float: left;
+    padding-top: 6px;
+    margin-right: 14px;
     font-size: 16px; color: #666666;
 }
 
 .f-sns-list {
-   width: 200px;  
+    float: left; 
 }
-.f-sns-list a {
+.f-sns-list li {
     float: left;
-    
-    
+    margin-left: 6px;
 }
 /* f-sns -e */
 
