@@ -7,10 +7,7 @@ MAIN - S
 main {padding-top: 138px;}
 .sec-header{}
 .sec-header h3{}
-/* figcaption {
-    margin-top: 40px;
-    font-weight: 700; font-size: 20px; color: #333333;
-} */
+
 /* main common -e */
 
 /* visual -s */
@@ -131,9 +128,13 @@ main {padding-top: 138px;}
     display: flex;
     justify-content: center;
     margin-top:91px;
-    padding-bottom: 6px;
-    
+    padding-bottom: 6px;  
 }
+.menu figcaption {
+    margin-top: 40px;
+    font-weight: 700; font-size: 20px; color: #333333;
+}
+
 /* menu section - e */
 
 /* brand section -s */
@@ -156,14 +157,12 @@ main {padding-top: 138px;}
 
 .brand-tit {
     padding-bottom: 20px;
-    font-size: 48px; 
-    color: #572a31;
+    font-size: 48px; color: #572a31;
 }
 
 .brand-subtit {
     padding-top: 40px;
-    font-size: 24px; 
-    color: #572a31;
+    font-size: 24px; color: #572a31; 
     line-height: 1.5;
 }
 
@@ -178,9 +177,7 @@ main {padding-top: 138px;}
     text-align: center;
     height: 60px;
     border: 1px solid #572a31;
-    line-height: 60px;
-    font-size: 24px;
-    color: #572a31;
+    font-size: 24px; line-height: 60px; color: #572a31;
 }
 
 .brand-box-list .btn-item.type1 {
@@ -189,20 +186,35 @@ main {padding-top: 138px;}
 }
 /* brand section -e */
 
+/* md section -s */
+.md .menu-toms {  
+    display: flex;
+    justify-content: center;
+    margin-top:91px;
+    padding-bottom: 6px;  
+}
+.md figcaption {
+    margin-top: 40px;
+    font-weight: 700; font-size: 20px; color: #333333;
+}
+/* md section -e */
+
+
+
+
 /* menu & md swiper -s */
 .menu-swiper .swiper {
-    width: 1400px;
-    height:700px;
+    width: 1400px; height:700px;
     padding-bottom: 80px;
     
 }
 .menu-swiper.swiper-slide a {
     text-align: center;
-    font-size: 25px;
-    background: #010000;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
+    background: #010000;
 }
 .menu-swiper .swipe-btn {
     color: #000000;
@@ -221,20 +233,18 @@ main {padding-top: 138px;}
     width: auto;
 }
 .menu-swiper .swiper-pagination-bullets .swiper-pagination-bullet {
-    background-color: #d4d4d4;
-    width: 14px;
-    height: 14px;
+    width: 14px; height: 14px;
     border-radius: 14px;
     opacity: 1;
     margin: 0 0 0 16px;
+    background-color: #d4d4d4;
 }
 .menu-swiper .swiper-pagination-bullets .swiper-pagination-bullet-active {
     background-color: #572a31;
 }
 .menu-swiper.swiper-slide img {
     display: block;
-    width: 1400px;
-    height: 590px;
+    width: 1400px; height: 590px;
     object-fit: cover;
 }
 /* menu & md swiper -e */

@@ -84,7 +84,6 @@ HEADER - S
     position: absolute; 
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff;
     box-shadow: 1px 0px 5px 0px #b4b3b36b;
     background-color: #ffffff;
 }
@@ -129,9 +128,9 @@ HEADER - S
 
 
 .gnb .depth1:nth-child(6) .depth2{
+    width: 410px; height:280px ;
     left: auto; right: 0;
     transform: none;
-    width: 410px; height:280px ;
     padding: 65px 0 42px;
 }
 
@@ -175,8 +174,8 @@ FOOTER - S
 
 .footer-inner {
     display: flex;
-    justify-content: space-between;
     width: 1400px;
+    justify-content: space-between;
     padding: 87px 0 118px;
     margin: 0 auto;
 }
@@ -186,16 +185,13 @@ FOOTER - S
 .service-wrap { width: 363px;}
 
 .service-wrap .service {
-    font-size: 16px; 
-    color: #572a31;
+    font-size: 16px; color: #572a31;
 }
 .service-wrap span {
     display: block;
     margin-top: 20px;
-    font-size: 36px;
-    color: #572a31;
+    font-size: 36px; color: #572a31;
 }
-
 .service-wrap  {}
 
 /* f-service -e */
@@ -213,13 +209,11 @@ FOOTER - S
 .f-family {
     display: flex;
     flex-wrap: wrap;
-    width: 450px; 
-    height: 65px;
+    width: 450px; height: 65px;
 } 
 
 .f-family a {
-    font-size: 16px;
-    color: #572a31;
+    font-size: 16px; color: #572a31;
 }
 
 .f-family li {
@@ -231,8 +225,7 @@ FOOTER - S
     content: "";
     display: block;
     position: absolute; top: 10px; right: 12px;
-    width: 2px;
-    height: 2px;
+    width: 2px; height: 2px;
     background-color: #572a31;
     border-radius: 50%;
 }
@@ -250,9 +243,7 @@ FOOTER - S
 /* f-addres -s */
 
 .f-addres {
-    font-size: 14px; 
-    color: #8a8a8a;
-    line-height: 1.6;
+    font-size: 14px; line-height: 1.6; color: #8a8a8a; 
 }
 
 .f-addres .f-addres-add {
@@ -276,8 +267,7 @@ FOOTER - S
 
 .f-sns .f-sns-follow {
     padding-top: 11px;
-    font-size: 16px;
-    color: #666666;
+    font-size: 16px; color: #666666;
 }
 
 .f-sns-list {
