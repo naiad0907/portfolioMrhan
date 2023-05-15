@@ -376,6 +376,10 @@ FOOTER - S
     line-height: 1.6;
 }
 
+.f-addres .f-addres-add {
+    margin-top: 29px;
+}
+
 .f-addres .f-addres-copy {
     margin-top: 20px;
 }
@@ -383,6 +387,7 @@ FOOTER - S
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 0,0,19px,37px;
     width: 300px;
     height: 36px;
     gap: 20px;
