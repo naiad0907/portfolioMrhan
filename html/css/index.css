@@ -79,16 +79,57 @@ main {padding-top: 138px;}
     line-height: 70px;
     background-color: #572a31;
 }
-.main-visual-swiper2 .swiper {
+.main-visual-swiper2 .wrapper {
+    position: relative;
     width: 1400px;
     margin: 0 auto;
+    height: 100%;
+}
+.main-visual-swiper2 .swiper {
+
+}
+.main-visual-swiper2 .wrapper::before {
+    content: "";
+    position: absolute;
+    left: 60px; top: 18px;
+    width: 37px;
+    height: 35px;
+    background: url("../img/icon/notice_icon.png") no-repeat center / cover;
+
 }
 .main-visual-swiper2 .swiper-slide {
-    display: flex;
+    padding: 0 50px;
+    text-align: left;
 }
-.main-visual-swiper2 .swiper-slide a {
-    flex: 1;
+.main-visual-swiper2 .list {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 0 46px 0 64px;
+}
+.main-visual-swiper2 .list:first-child {
+    padding: 0 24px 0 85px;
+}
+.main-visual-swiper2 .list .txt {
+    float: left;
+    width: 80%;
+}
+.main-visual-swiper2 .list .txt a {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.main-visual-swiper2 .list .date {
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+.main-visual-swiper2 .list a,
+.main-visual-swiper2 .list {
     color: #fff;
+    font-size: 16px;
+    font-weight: 300;
 }
 /* text swiper -e */
 /* visual section - e */

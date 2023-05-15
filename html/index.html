@@ -175,31 +175,78 @@
 						</div>
 					</div>
 					<div class="swiper-pagination"></div>
-					<div id="play-button" class="play-button">
+					<button type="button" id="play-button" class="play-button">
 						<span class="material-symbols-outlined">
 							pause
 						</span>
-					</div>
+					</button>
 				</div>
 
 				<!-- 텍스트형 스와이프 -->
 				<div class="main-visual-swiper2">
-					<div class="swiper mySwiper">
-						<div class="swiper-wrapper">
-							<div class="swiper-slide">
-								<a href="#">[보도자료]탐엔탐스,매년 봄 찾아오는 원물 가득 '리얼 바나나..</a>
-								<a href="#">[보도자료]탐엔탐스,매년 봄 찾아오는 원물 가득 '리얼 바나나..</a>
-							</div>
-							<div class="swiper-slide">
-								<a href="#">[보도자료]탐엔탐스,매년 봄 찾아오는 원물 가득 '리얼 바나나..</a>
-								<a href="#">[보도자료]탐엔탐스,매년 봄 찾아오는 원물 가득 '리얼 바나나..</a>
-							</div>
-							<div class="swiper-slide">
-								<a href="#">[보도자료]탐엔탐스,매년 봄 찾아오는 원물 가득 '리얼 바나나..</a>
-								<a href="#">[보도자료]탐엔탐스,매년 봄 찾아오는 원물 가득 '리얼 바나나..</a>
+					<div class="wrapper">
+						<div class="swiper mySwiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="list">
+										<div class="txt">
+											<a href="#">[보도자료] 탐앤탐스, NEW 펭수 콜라보 MD 선보이는 쇼핑 라이브 진행</a>
+										</div>
+										<div class="date">2023.04.10</div>
+									</div>
+									<div class="list">
+										<div class="txt">
+											<a href="#">[보도자료] 탐앤탐스, NEW 펭수 콜라보 MD 선보이는 쇼핑 라이브 진행</a>
+										</div>
+										<div class="date">2023.04.10</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="list">
+										<div class="txt">
+											<a href="#">[보도자료] 탐앤탐스, NEW 펭수 콜라보 MD 선보이는 쇼핑 라이브 진행</a>
+										</div>
+										<div class="date">2023.04.10</div>
+									</div>
+									<div class="list">
+										<div class="txt">
+											<a href="#">[보도자료] 탐앤탐스, NEW 펭수 콜라보 MD 선보이는 쇼핑 라이브 진행</a>
+										</div>
+										<div class="date">2023.04.10</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="list">
+										<div class="txt">
+											<a href="#">[보도자료] 탐앤탐스, NEW 펭수 콜라보 MD 선보이는 쇼핑 라이브 진행</a>
+										</div>
+										<div class="date">2023.04.10</div>
+									</div>
+									<div class="list">
+										<div class="txt">
+											<a href="#">[보도자료] 탐앤탐스, NEW 펭수 콜라보 MD 선보이는 쇼핑 라이브 진행</a>
+										</div>
+										<div class="date">2023.04.10</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="list">
+										<div class="txt">
+											<a href="#">[보도자료] 탐앤탐스, NEW 펭수 콜라보 MD 선보이는 쇼핑 라이브 진행</a>
+										</div>
+										<div class="date">2023.04.10</div>
+									</div>
+									<div class="list">
+										<div class="txt">
+											<a href="#">[보도자료] 탐앤탐스, NEW 펭수 콜라보 MD 선보이는 쇼핑 라이브 진행</a>
+										</div>
+										<div class="date">2023.04.10</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 			<h2 class="hidden">메인콘텐츠</h2>
@@ -261,9 +308,9 @@
 									</a>
 								</div>
 							</div>
-							<div class="swiper-button-next swipe-btn"></div>
-							<div class="swiper-button-prev swipe-btn"></div>
-							<div class="swiper-pagination swipe-btn"></div>				
+							<button type="button" class="swiper-button-next swipe-btn"></button>
+							<button type="button" class="swiper-button-prev swipe-btn"></button>
+							<button type="button" class="swiper-pagination swipe-btn"></button>				
 						</div>
 					</div>
 				</div>            
@@ -341,9 +388,9 @@
 									</a>
 								</div>
 							</div>
-							<div class="swiper-button-next swipe-btn"></div>
-							<div class="swiper-button-prev swipe-btn"></div>
-							<div class="swiper-pagination swipe-btn"></div>
+							<button type="button" class="swiper-button-next swipe-btn"></button>
+							<button type="button" class="swiper-button-prev swipe-btn"></button>
+							<button type="button" class="swiper-pagination swipe-btn"></button>	
 						</div>
 					</div>
 				</div>            
@@ -442,10 +489,10 @@
 			var swiper = new Swiper(".main-visual-swiper2 .mySwiper", {
 				direction: "vertical",
 				loop: true, // 무한 루프
-				autoplay: {
-					delay: 1000, // 슬라이드 간의 자동 재생 딜레이 (3초)
-					disableOnInteraction: false, // 슬라이드와의 상호작용이 일어날 때 자동 재생 일시정지 비활성화
-				}
+				// autoplay: {
+				// 	delay: 1000, // 슬라이드 간의 자동 재생 딜레이 (3초)
+				// 	disableOnInteraction: false, // 슬라이드와의 상호작용이 일어날 때 자동 재생 일시정지 비활성화
+				// }
 			});
 
 			//  세번째 스와이프
