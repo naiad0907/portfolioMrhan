@@ -102,6 +102,7 @@ main {padding-top: 138px;}
     text-align: left;
 }
 .main-visual-swiper2 .list {
+    position: relative;
     float: left;
     width: 50%;
     height: 100%;
@@ -114,7 +115,7 @@ main {padding-top: 138px;}
     float: left;
     width: 80%;
 }
-.main-visual-swiper2 .list .txt a {
+.main-visual-swiper2 .list .txt {
     display: inline-block;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -125,7 +126,7 @@ main {padding-top: 138px;}
     width: 20%;
     text-align: right;
 }
-.main-visual-swiper2 .list a,
+.main-visual-swiper2 .list .txt a,
 .main-visual-swiper2 .list {
     color: #fff;
     font-size: 16px;
