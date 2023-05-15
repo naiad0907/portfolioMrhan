@@ -42,7 +42,7 @@ HEADER - S
 .logo a {
     display: block;
     width: 95px; height: 94px;
-    background-image: url(/img/main/logo.png);
+    background-image: url(../img/main/logo.png);
     text-indent: -9999px;
 }
 
@@ -56,12 +56,12 @@ HEADER - S
 .tnb li {
     float: left;
     padding: 0 12px;
-    position: relative
+    position: relative;
 }
 .tnb li::after{content: "";
+    position: absolute; left: 0;top: 9px;
     width: 1px; height: 11px;
     background-color: #c5c5c5;
-    position: absolute; left: 0;top: 7px
 }
 .tnb li:first-child::after { display: none;} 
 
@@ -130,11 +130,13 @@ HEADER - S
 
 
 .gnb .depth1:nth-child(6) .depth2{
+    left: auto; right: 0;
+    transform: none;
     width: 410px; height:280px ;
     padding: 65px 0 42px;
 }
 
-.gnb .depth1:nth-child(6) .depth2 > ul {
+.gnb .depth1:nth-child(6) .depth2 > li {
     float: left;
 }
 
@@ -192,7 +194,7 @@ main {padding-top: 138px;}
 
 .brand {
     width: 100%; height: 602px;
-    background: url(/img/main/section2_bg.jpg) no-repeat center / cover;
+    background: url(../img/main/section2_bg.jpg) no-repeat center / cover;
 }
 
 .brand-wrap {
@@ -386,9 +388,8 @@ FOOTER - S
 /* top btn */
 .scroll-btn {
     position: fixed;
+    right: 10px; bottom: 50px; z-index: 999;
     width: 90px;
-    right: 10px;
-    bottom: 50px; 
 
 }
 
@@ -412,9 +413,14 @@ FOOTER - S
     margin-top: 15px;
     border: 0;
     background: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: opacity 1s ease;
+    cursor: pointer;
     
 }
-
+.scroll-btn .top-btn.on {
+    opacity: 1;
+}
 .scroll-btn .material-symbols-outlined {
     font-size: 38px;
     color: #ffffff;
@@ -518,7 +524,14 @@ FOOTER - E
 .menu-swiper .swipe-btn {
     color: #000000;
 }
-
+.menu-swiper .swiper-button-next,
+.menu-swiper .swiper-button-prev {
+    margin-top: -114px;
+}
+.menu-swiper .swiper-button-next:after,
+.menu-swiper .swiper-button-prev:after {
+    font-size: 34px;
+}
 .menu-swiper .swiper-pagination {
     bottom: auto; top: 0; 
     right: 0; left: auto; 
