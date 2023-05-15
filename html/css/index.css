@@ -121,6 +121,7 @@ HEADER - S
 .gnb .depth1:nth-child(5) .depth2 > li {
     float: left;
 }
+
 .gnb .depth1:nth-child(5) .depth2>li:nth-child(2) {margin-left: 45px;}
 .gnb .depth1:nth-child(5) .depth2>li:nth-child(3) {margin-left: -14px;}
 .gnb .depth1:nth-child(5) .depth2>li:nth-child(4) {margin-left: 45px;}
@@ -138,7 +139,6 @@ HEADER - S
     float: left;
 }
 
-
 .gnb .depth2 a {
     display: block;
     margin-bottom: 15px;
@@ -151,11 +151,15 @@ HEADER - S
     display: block;
     
 }
+
 .gnb .depth2 .depth3 a {
     margin-bottom: 15px;
     font-size: 14px; line-height: 1.3; color: #666; font-weight: 400;
 }
+
 /* GNB -E */
+
+
 /********** 
 HEADER - E 
 **********/
@@ -166,29 +170,34 @@ HEADER - E
 MAIN - S 
 **********/
 
+/* main common -s */
+main {padding-top: 138px;}
+
 figcaption {
     margin-top: 40px;
     font-weight: 700; font-size: 20px; color: #333333;
 }
 
+/* main common -e */
 
+/* main visual -s */
 
+.main-visual { width: 100%;}
 
-main {padding-top: 138px;}
+/* main visual -e */
 
-.main-visual {
-    width: 100%;
-}
-
-
-
-.menu .menu-toms {
-   
+/* menu section -s */
+.menu .menu-toms {  
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top:91px;
+    padding-bottom: 6px;
     
 }
+
+/* menu section -e */
+
+/* brand section -s */
 
 .brand {
     width: 100%; height: 602px;
@@ -214,15 +223,12 @@ main {padding-top: 138px;}
     color: #572a31;
 }
 
-
 .brand-subtit {
     padding-top: 40px;
     font-size: 24px; 
     color: #572a31;
     line-height: 1.5;
 }
-
-
 
 .brand-box-list {
     display: flex;
@@ -245,49 +251,11 @@ main {padding-top: 138px;}
     background-color: #572a31;
 }
    
-
-/* .brand-box-list {
-     font-size: 0;
-}
-
-.brand-box-list .btn-item {
-    display: inline-block;
-    margin-right: 10px;
-    width: 216px; height: 60px;
-    line-height: 60px;
-    border: 1px solid #572a31;
-    font-size: 24px;
-    color: #572a31;
-    text-align: center;
-}
-
-.brand-item {
-    float: left;
-    width: 216px; height: 60px;
-    border: solid 1px;color: #572a31;
-} */
-
-
-
-.menu .menu-toms {
-    display: flex;
-    justify-content: center;
-    margin-top:91px;
-    padding-bottom: 6px;
-    
-    
-}
-
-
-
-
+/* brand section -e */
 
 /********** 
 MAIN - E 
 **********/
-
-
-
 
 /********** 
 FOOTER - S 
@@ -306,10 +274,9 @@ FOOTER - S
     margin: 0 auto;
 }
 
-.service-wrap {
-    width: 363px;
-   
-}
+/* f-service -s */
+
+.service-wrap { width: 363px;}
 
 .service-wrap .service {
     font-size: 16px; 
@@ -320,23 +287,27 @@ FOOTER - S
     margin-top: 20px;
     font-size: 36px;
     color: #572a31;
-    
 }
 
-.service-wrap  {
-    
-}
+.service-wrap  {}
+
+/* f-service -e */
+
+/* f-info -s */
 
 .f-info {
     width: 700px;
 }
+
+/* f-info -e */
+
+/* f-family -s */
 
 .f-family {
     display: flex;
     flex-wrap: wrap;
     width: 450px; 
     height: 65px;
-
 } 
 
 .f-family a {
@@ -367,6 +338,10 @@ FOOTER - S
     display: none;
 }
 
+/* f-family -e */
+
+/* f-addres -s */
+
 .f-addres {
     font-size: 14px; 
     color: #8a8a8a;
@@ -380,6 +355,11 @@ FOOTER - S
 .f-addres .f-addres-copy {
     margin-top: 20px;
 }
+
+/* f-addres -e */
+
+/* f-sns -s */
+
 .f-sns {
     display: flex;
     justify-content: flex-start;
@@ -398,7 +378,32 @@ FOOTER - S
     gap: 7px;
 }
 
-/* top btn */
+/* f-sns -e */
+
+/********** 
+FOOTER - E
+**********/
+
+
+/********** 
+SWIPER - S
+**********/
+
+/* play btn -s */
+
+#play-button {
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+    z-index: 22;
+    width: 24px;
+    margin-left: -268px;
+    cursor: pointer;
+}
+
+/* play btn -e */
+
+/* top btn -s */
 .scroll-btn {
     position: fixed;
     right: 10px; bottom: 50px; z-index: 999;
@@ -414,9 +419,7 @@ FOOTER - S
     background: none;
 }
 
-.scroll-btn .btn-chat img {
-    width: 100%;
-}
+.scroll-btn .btn-chat img {width: 100%;}
 
 .scroll-btn .top-btn {
     float: right;
@@ -428,26 +431,19 @@ FOOTER - S
     background: rgba(0,0,0,0.7);
     opacity: 0;
     transition: opacity 1s ease;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
-.scroll-btn .top-btn.on {
-    opacity: 1;
-}
+.scroll-btn .top-btn.on {  opacity: 1;}
+
 .scroll-btn .material-symbols-outlined {
     font-size: 38px;
     color: #ffffff;
     line-height: 45px;
 }
 
+/* top btn -e */
 
-/********** 
-FOOTER - E
-**********/
-
-
-
-/* 첫번째 스와이퍼 */
+/* main-visual swiper -s */
 
 .kv-swiper {
     min-height: 600px;
@@ -496,9 +492,9 @@ FOOTER - E
     object-fit: cover;
 }
 
+/* main-visual swiper -e */
 
-
-/* 두번째 스와이퍼 */
+/* text swiper -s */
 
 .main-visual-swiper2 {
     height: 70px;
@@ -516,8 +512,9 @@ FOOTER - E
     flex: 1;
     color: #fff;
 }
+/* text swiper -e */
 
-/* 세번째 스와이퍼 */
+/* menu & md swiper -s */
 
 .menu-swiper .swiper {
     width: 1400px;
@@ -570,53 +567,10 @@ FOOTER - E
     object-fit: cover;
 }
 
+/* menu & md swiper -e */
 
 
 
-/* 4번째 스와이프 */
-
-/* .md-swiper .swiper {
-    width: 1400px;
-    height:700px;
-    padding-bottom: 80px;
-}
-
-.md-swiper.swiper-slide a {
-    text-align: center;
-    font-size: 25px;
-    background: #010000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .md-swiper.swiper-slide img {
-    display: block;
-    width: 1400px;
-    height: 518px;
-    object-fit: cover;
-} */
-
-
-#play-button {
-    position: absolute;
-    bottom: 36px;
-    left: 50%;
-    z-index: 22;
-    width: 24px;
-    margin-left: -268px;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-.swiper-button-prev .swipe-btn {
-    
-}
 
 
 
