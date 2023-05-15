@@ -173,16 +173,17 @@ FOOTER - S
 }
 
 .footer-inner {
-    display: flex;
     width: 1400px;
-    justify-content: space-between;
     padding: 87px 0 118px;
     margin: 0 auto;
 }
 
 /* f-service -s */
 
-.service-wrap { width: 363px;}
+.service-wrap { 
+    float: left;
+    width: 363px;
+}
 
 .service-wrap .service {
     font-size: 16px; color: #572a31;
@@ -199,6 +200,7 @@ FOOTER - S
 /* f-info -s */
 
 .f-info {
+    float: left;
     width: 700px;
 }
 
@@ -207,18 +209,21 @@ FOOTER - S
 /* f-family -s */
 
 .f-family {
-    display: flex;
-    flex-wrap: wrap;
-    width: 450px; height: 65px;
+    
+    width: 460px; height: 65px;
+    
 } 
 
 .f-family a {
+    float: left;
     font-size: 16px; color: #572a31;
 }
 
 .f-family li {
+    display: inline-block;
     position: relative;
     padding-right: 26px;
+
 }
 
 .f-family li::before {
