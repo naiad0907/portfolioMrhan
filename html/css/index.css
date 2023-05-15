@@ -22,37 +22,7 @@ main {padding-top: 138px;}
     margin-left: -268px;
     cursor: pointer;
 }
-.visual .scroll-btn {
-    position: fixed;
-    right: 10px; bottom: 50px; z-index: 999;
-    width: 90px;
-}
-.scroll-btn .btn-chat {
-    float: right;
-    width: 90px; height: 90px; 
-    padding: 0;
-    border: 0; 
-    background: none;
-}
-.scroll-btn .btn-chat img {width: 100%;}
-.scroll-btn .top-btn {
-    float: right;
-    text-align: center; 
-    width: 45px; height: 45px;
-    padding: 0;
-    margin-top: 15px;
-    border: 0;
-    background: rgba(0,0,0,0.7);
-    opacity: 0;
-    transition: opacity 1s ease;
-    cursor: pointer; 
-}
-.scroll-btn .top-btn.on {  opacity: 1;}
-.scroll-btn .material-symbols-outlined {
-    font-size: 38px;
-    color: #ffffff;
-    line-height: 45px;
-}
+
 .kv-swiper {
     min-height: 600px;
     height: 45vh;
