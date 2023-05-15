@@ -137,13 +137,12 @@ main {padding-top: 138px;}
 }
 
 .brand-box-list {
-    display: flex;
-    justify-content: space-between;
     padding-top: 60px;
-    gap: 15px;
 }
 .brand-box-list .btn-item {
-    flex: 1;
+    float: left;
+    width: 230px;
+    margin-left: 15px;
     text-align: center;
     height: 60px;
     border: 1px solid #572a31;
@@ -151,6 +150,7 @@ main {padding-top: 138px;}
 }
 
 .brand-box-list .btn-item.type1 {
+    margin-left: 0;
     color: #ffffff; 
     background-color: #572a31;
 }
