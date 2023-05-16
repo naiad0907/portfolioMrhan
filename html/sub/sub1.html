@@ -193,13 +193,13 @@
 				<div class="f-sns">
 					<p class="f-sns-follow">Follow us</p>
 					<ul class="f-sns-list">
-						<li><a href="#"><img src="img/icon/sns_instagram.png" alt="insta"></a>
+						<li><a href="#"><img src="../img/icon/sns_instagram.png" alt="insta"></a>
 						</li>
-						<li><a href="#"><img src="img/icon/sns_facebook.png" alt="facebook"></a>
+						<li><a href="#"><img src="../img/icon/sns_facebook.png" alt="facebook"></a>
 						</li>
-						<li><a href="#"><img src="img/icon/sns_youtube.png" alt="youtube"></a>
+						<li><a href="#"><img src="../img/icon/sns_youtube.png" alt="youtube"></a>
 						</li>
-						<li><a href="#"><img src="img/icon/sns_blog.png" alt="blog"></a>
+						<li><a href="#"><img src="../img/icon/sns_blog.png" alt="blog"></a>
 						</li>
 					</ul>
 				</div>
@@ -207,12 +207,51 @@
 		</footer>
 		<!-- top버튼 -->
 		<div class="scroll-btn">
-			<button type="button" class="btn-chat"><img src="img/icon/chatbot.png" alt="chatbot"></button>
+			<button type="button" class="btn-chat"><img src="../img/icon/chatbot.png" alt="chatbot"></button>
 			<button type="button" id="topBtn" class="top-btn" onclick="topFunction()">
 				<span class="material-symbols-outlined">
 				expand_less
 				</span>
 			</button>
 		</div>
+		<script>
+			// 스크롤 위치를 확인하여 Top 버튼의 표시 여부 결정
+			window.onscroll = function() {scrollFunction()};
+			
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("topBtn").classList.add("on");
+				} else {
+					document.getElementById("topBtn").classList.remove("on");
+				}
+			}
+			
+			// Top 버튼 클릭 시 부드럽게 상단으로 이동
+			function topFunction() {
+			// 현재 스크롤 위치
+			var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+			
+			// 상단으로 이동할 거리
+			var scrollStep = document.documentElement.scrollTop
+			
+			// 애니메이션 함수
+			function smoothScroll() {
+				var scrollAmount = document.body.scrollTop
+				
+				// 스크롤 위치 설정
+				document.documentElement.scrollTop = scrollAmount;
+				document.body.scrollTop = scrollAmount;
+				
+				// 애니메이션 종료 여부 확인
+				if (scrollAmount > 0) {
+				// 다음 프레임 요청
+				requestAnimationFrame(smoothScroll);
+				}
+			}
+			
+				// 애니메이션 시작
+				requestAnimationFrame(smoothScroll);
+			}
+		</script>
 	</body>
 </html>

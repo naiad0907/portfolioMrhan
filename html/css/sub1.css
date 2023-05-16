@@ -6,32 +6,39 @@
 /* sub1 */
 
 
+
 .drink {
-    width: 100%; height: 420px;
+    position: relative;
+    height: 420px;
     background-image: url(../img/sub1/banner_bg_drink.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
-.drink-inner .drink-wrap {
-    width: 700px; height: 78px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0 auto;
-    
+.drink .drink-inner {
+   
 }
 
+.drink-inner .drink-wrap {
+    position: absolute;
+    top: 40%;
+    left: 67%;
+}
+  
+
+
 .drink-wrap h3 {
+    float: left;
     font-size: 60px;
     color: #ffffff;
 }
 
 .drink-wrap .btn-food {
+    display: inline-block;
     width: 147px; height: 47px;
-    display: flex;
-    justify-content: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: center;
     font-size: 18px;
     color: #ffffff;
     line-height: 47px;
@@ -39,7 +46,8 @@
 }
 
 .food {
-    width: 100%; height: 420px;
+    position: relative;
+    height: 420px;
     background: url(../img/sub1/banner_bg_food.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -47,22 +55,25 @@
 }
 
 .food-inner .food-wrap {
-    width: 700px;height: 78px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+
    
 }
 
 .food-wrap h3 {
+    float: left;
     font-size: 60px;
     color: #000000;
 }
 
 .food-wrap .btn-food {
+    display: inline-block;
     width: 147px; height: 47px;
-    display: flex;
-    justify-content: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: center;
     font-size: 18px;
     color: #000;
     line-height: 47px;
@@ -71,7 +82,8 @@
 
 
 .md {
-    width: 100%; height: 420px;
+    position: relative;
+    height: 420px;
     background: url(../img/sub1/banner_bg_md.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -79,23 +91,24 @@
 }
 
 .md-inner .md-wrap {
-    width: 700px; height: 78px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 67%;
     
 }
 
 .md-wrap h3 {
+    float: left;
     font-size: 60px;
     color: #ffffff;
 }
 
 .md-wrap .btn-food {
+    display: inline-block;
     width: 147px; height: 47px;
-    display: flex;
-    justify-content: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: center;
     font-size: 18px;
     color: #ffffff;
     line-height: 47px;
