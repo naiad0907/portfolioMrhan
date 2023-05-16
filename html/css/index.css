@@ -14,9 +14,7 @@ main {padding-top: 138px;}
 .visual { width: 100%;}
 
 .visual .play-button {
-    position: absolute;
-    bottom: 36px;
-    left: 50%;
+    position: absolute;bottom: 36px;left: 50%;
     z-index: 22;
     width: 24px;
     margin-left: -268px;
@@ -144,10 +142,15 @@ main {padding-top: 138px;}
 
 /* menu section - s */
 .menu .menu-toms {  
-    display: flex;
-    justify-content: center;
-    margin-top:91px;
-    padding-bottom: 6px;  
+    text-align: center;
+    margin-top: 91px;
+    padding-bottom: 6px;
+    font-size: 45px;
+    letter-spacing: -1px;
+}
+.menu .menu-toms strong {
+    font-weight: 1000;
+    
 }
 .menu figcaption {
     margin-top: 40px;
@@ -206,12 +209,17 @@ main {padding-top: 138px;}
 /* brand section -e */
 
 /* md section -s */
-.md .menu-toms {  
-    display: flex;
-    justify-content: center;
-    margin-top:91px;
-    padding-bottom: 6px;  
+.md .md-toms {  
+    text-align: center;
+    margin-top: 91px;
+    padding-bottom: 6px;
+    font-size: 45px;
+    letter-spacing: -1px;
 }
+.md .md-toms strong {
+    font-weight: 1000;   
+}
+
 .md figcaption {
     margin-top: 40px;
     font-weight: 700; font-size: 20px; color: #333333;
