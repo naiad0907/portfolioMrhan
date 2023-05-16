@@ -50,10 +50,9 @@
 
 .food-inner .food-wrap {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 18%;
-
-   
+    margin-top: -36px;
 }
 
 .food-wrap h3 {

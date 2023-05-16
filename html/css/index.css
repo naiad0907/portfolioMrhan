@@ -147,9 +147,11 @@ MAIN - S
     padding-bottom: 6px;
     font-size: 45px;
     letter-spacing: -1px;
+    font-family: 'Roboto';
+    font-weight: 300;
 }
 .menu .menu-toms strong {
-    font-weight: 1000;
+    font-weight: 900;
     
 }
 .menu figcaption {
@@ -215,9 +217,11 @@ MAIN - S
     padding-bottom: 6px;
     font-size: 45px;
     letter-spacing: -1px;
+    font-family: 'Roboto';
+    font-weight: 300;
 }
 .md .md-toms strong {
-    font-weight: 1000;   
+    font-weight: 900;   
 }
 
 .md figcaption {
