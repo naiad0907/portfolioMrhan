@@ -133,32 +133,36 @@
 }
 
 .event-sub {
-    margin-top: 84px;
     font-size: 36px;
     color: #000000;
 }
 
 .event-ing {
     position: relative;
+    width: 1400px;
+    margin: 0 auto;
     height: 321px;
 }
 .event-sub {
-    font-size: 36px; color: #000000;
+    clear: both;
     text-align: center;
+    padding-top: 40px;
+    font-size: 36px; color: #000000;
 }
-.event-home {
-    position: absolute;
-   top: 16px; right: 232px;
+.location-navi {
+    float: right;
+    padding-top: 20px;
+    
 }
 
-.event-home li {
+.location-navi li {
+    position: relative;
     float: left;
     font-size: 12px; color: #a7a6a6;
-    margin-right: 20px;
+    padding-right: 20px;
 }
-.event-home li::after {
+.location-navi li::after {
     content: ">";
-    
-    
-
+    position: absolute;
+    top: 0; right: 8px;
 }

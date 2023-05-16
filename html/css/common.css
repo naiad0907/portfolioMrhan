@@ -7,9 +7,9 @@ COMMON - S
 **********/
 *, ::before, ::after { box-sizing: border-box;}
 a {text-decoration: none; color: inherit;}
-img {display: block;}
-body { font: 16px/1.2 'Noto Sans KR',"돋움", Dotum, AppleGothic, sans-serif; letter-spacing: -0.5px;}
-body {min-width: 1400px;}
+/* img {display: block;} */
+body { min-width: 1400px;
+    font: 16px/1.2 'Noto Sans KR',"돋움", Dotum, AppleGothic, sans-serif; letter-spacing: -0.5px;}
 .inner { width: 1400px; margin: 0 auto;}
 .hidden {
     width: 0; height: 0; 
