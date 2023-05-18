@@ -130,7 +130,6 @@
     position: relative;
     width: 1400px;
     margin: 0 auto;
-    height: 321px;
 }
 .sub-title {
     clear: both;
@@ -261,7 +260,8 @@
 }
 
 .sub-line {
-	border-top: 1px solid #e6e6e6;;
+	border-top: 1px solid #e6e6e6;
+    
 }
 
 
