@@ -30,11 +30,9 @@
 .drink-wrap .btn-food {
     display: inline-block;
     width: 147px; height: 47px;
-    margin-top: 15px;
-    margin-left: 30px;
+    margin: 15px 0 0 30px;
     text-align: center;
-    font-size: 18px;
-    color: #ffffff;
+    font-size: 18px; color: #ffffff;
     line-height: 47px;
     border: 1px solid #fff;
 }
@@ -171,21 +169,21 @@
     background-size: cover;
 }
 
-.store h2 {
+.title h2 {
     font-family: roboto; font-size: 48px; color: #ffffff;
     text-align: center;
     line-height: 480px;
 }   
-.store-wrap {
+/* .store-wrap {
     height: 55px;
     position: relative;
     background-color: #efefef;
-}
-.store .store-wrap {
+} */
+/* .store .store-wrap {
     height: 55px;
     margin: 0 auto;
-}  
-.store .shop {
+}   */
+.title .shop {
     width: 1400px; height: 55px;
     margin: 0 auto;
 }
@@ -197,11 +195,11 @@
     font-size: 18px; color: #000000;
 
 }
-.store .shop li a {
+.title .shop li a {
     display: block;
 }
 
-.store .shop li.on {
+.title .shop li.on {
     text-align: center;
     font-size: 18px; color: #ffffff;
     line-height: 55px;
@@ -209,7 +207,77 @@
 }
 
 
-.store .shop-tit {
+.title .shop-tit {
     text-align: center;
     font-size: 36px;
+}
+
+.map-container {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.map-container iframe {
+	width: 100%;
+	height: 800px;
+	border: 0;
+}
+
+
+
+
+/* sub4 */
+
+.servi {
+	height: 480px;
+	background-image: url(../img/sub1/sv_4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.servi .shop li {
+	width: 16.6%; height: 55px;
+	float: left;
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px; color: #000000;
+
+}
+
+
+/* sub5 */
+
+.community {
+	height: 480px;
+	background-image: url(../img/sub1/sv_5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.community .shop li {
+	width: 20%; height: 55px;
+	float: left;
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px; color: #000000;
+
+}
+
+
+/* sub6 */
+
+.tomntoms {
+	height: 480px;
+	background-image: url(../img/sub1/sv_5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tomntoms .shop li {
+	width: 25%; height: 55px;
+	float: left;
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px; color: #000000;
+
 }
