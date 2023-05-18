@@ -6,214 +6,213 @@
 /* sub1 */
 
 .drink {
-    position: relative;
-    height: 420px;
-    background-image: url(../img/sub1/banner_bg_drink.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+		position: relative;
+		height: 420px;
+		background-image: url(../img/sub1/banner_bg_drink.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 }
 
 
 .drink-inner .drink-wrap {
-    position: absolute;
-    top: 40%;
-    left: 67%;
+		position: absolute;
+		top: 40%;
+		left: 67%;
 }
-  
+	
 .drink-wrap h3 {
-    float: left;
-    font-size: 60px;
-    color: #ffffff;
+		float: left;
+		font-size: 60px;
+		color: #ffffff;
 }
 
 .drink-wrap .btn-food {
-    display: inline-block;
-    width: 147px; height: 47px;
-    margin: 15px 0 0 30px;
-    text-align: center;
-    font-size: 18px; color: #ffffff;
-    line-height: 47px;
-    border: 1px solid #fff;
+		display: inline-block;
+		width: 147px; height: 47px;
+		margin: 15px 0 0 30px;
+		text-align: center;
+		font-size: 18px; color: #ffffff;
+		line-height: 47px;
+		border: 1px solid #fff;
 }
 
 .food {
-    position: relative;
-    height: 420px;
-    background: url(../img/sub1/banner_bg_food.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+		position: relative;
+		height: 420px;
+		background: url(../img/sub1/banner_bg_food.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 }
 
 .food-inner .food-wrap {
-    position: absolute;
-    top: 50%;
-    left: 18%;
-    margin-top: -36px;
+		position: absolute;
+		top: 50%;
+		left: 18%;
+		margin-top: -36px;
 }
 
 .food-wrap h3 {
-    float: left;
-    font-size: 60px;
-    color: #000000;
+		float: left;
+		font-size: 60px;
+		color: #000000;
 }
 
 .food-wrap .btn-food {
-    display: inline-block;
-    width: 147px; height: 47px;
-    margin-top: 15px;
-    margin-left: 30px;
-    text-align: center;
-    font-size: 18px;
-    color: #000;
-    line-height: 47px;
-    border: 1px solid #222;
+		display: inline-block;
+		width: 147px; height: 47px;
+		margin-top: 15px;
+		margin-left: 30px;
+		text-align: center;
+		font-size: 18px;
+		color: #000;
+		line-height: 47px;
+		border: 1px solid #222;
 }
 
 
 .md {
-    position: relative;
-    height: 420px;
-    background: url(../img/sub1/banner_bg_md.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+		position: relative;
+		height: 420px;
+		background: url(../img/sub1/banner_bg_md.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 }
 
 .md-inner .md-wrap {
-    position: absolute;
-    top: 40%;
-    left: 67%;
-    
+		position: absolute;
+		top: 40%;
+		left: 67%;
+		
 }
 
 .md-wrap h3 {
-    float: left;
-    font-size: 60px;
-    color: #ffffff;
+		float: left;
+		font-size: 60px;
+		color: #ffffff;
 }
 
 .md-wrap .btn-food {
-    display: inline-block;
-    width: 147px; height: 47px;
-    margin-top: 15px;
-    margin-left: 30px;
-    text-align: center;
-    font-size: 18px;
-    color: #ffffff;
-    line-height: 47px;
-    border: 1px solid #fff;
+		display: inline-block;
+		width: 147px; height: 47px;
+		margin-top: 15px;
+		margin-left: 30px;
+		text-align: center;
+		font-size: 18px;
+		color: #ffffff;
+		line-height: 47px;
+		border: 1px solid #fff;
 }
 
 
 /* sub2 */
 
 .event{
-    position: relative;
-    height: 480px;
-    background-image: url(../img/sub1/sv_2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+		position: relative;
+		height: 480px;
+		background-image: url(../img/sub1/sv_2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
 }
 
 
 .event h2 {
-    text-align: center;
-    line-height: 480px;
-    font-size: 48px; color: #ffffff;
+		text-align: center;
+		line-height: 480px;
+		font-size: 48px; color: #ffffff;
 }
 
 
 .sub {
-    position: relative;
-    width: 1400px;
-    margin: 0 auto;
+		position: relative;
+		width: 1400px;
+		margin: 0 auto;
 }
 .sub-title {
-    clear: both;
-    text-align: center;
-    padding-top: 40px;
-    font-size: 36px; color: #000000;
+		clear: both;
+		text-align: center;
+		padding-top: 40px;
+		font-size: 36px; color: #000000;
 }
 .location-navi {
-    float: right;
-    padding-top: 20px;
-    
+		float: right;
+		padding-top: 20px;
+		
 }
 
 .location-navi li {
-    position: relative;
-    float: left;
-    font-size: 12px; color: #a7a6a6;
-    padding-right: 20px;
+		position: relative;
+		float: left;
+		font-size: 12px; color: #a7a6a6;
+		padding-right: 20px;
 }
 .location-navi li::after {
-    content: ">";
-    position: absolute;
-    top: 0; right: 8px;
+		content: ">";
+		position: absolute;
+		top: 0; right: 8px;
 }
 
 .location-navi li:last-child::after {
-    display: none;
+		display: none;
 }
 
 /* sub3 */
 
 .store {
-    height: 480px;
-    background-image: url(../img/sub1/sv_3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+		height: 480px;
+		background-image: url(../img/sub1/sv_3.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
 }
 
 .title h2 {
-    font-family: roboto; font-size: 48px; color: #ffffff;
-    text-align: center;
-    line-height: 480px;
+		font-family: roboto; font-size: 48px; color: #ffffff;
+		text-align: center;
+		line-height: 480px;
 }   
 /* .store-wrap {
-    height: 55px;
-    position: relative;
-    background-color: #efefef;
+		height: 55px;
+		position: relative;
+		background-color: #efefef;
 } */
 /* .store .store-wrap {
-    height: 55px;
-    margin: 0 auto;
+		height: 55px;
+		margin: 0 auto;
 }   */
 .title .shop {
-    width: 1400px; height: 55px;
-    margin: 0 auto;
+		width: 1400px; height: 55px;
+		margin: 0 auto;
 }
 .store .shop li {
-    width: 50%; height: 55px;
-    float: left;
-    text-align: center;
-    line-height: 55px;
-    font-size: 18px; color: #000000;
+		width: 50%; height: 55px;
+		float: left;
+		text-align: center;
+		line-height: 55px;
+		font-size: 18px; color: #000000;
 
 }
 .title .shop li a {
-    display: block;
+		display: block;
 }
 
 .title .shop li.on {
-    text-align: center;
-    font-size: 18px; color: #ffffff;
-    line-height: 55px;
-    background-color: #572a31;
+		text-align: center;
+		font-size: 18px; color: #ffffff;
+		line-height: 55px;
+		background-color: #572a31;
 }
 
 
 .title .shop-tit {
-    text-align: center;
-    font-size: 36px;
+		text-align: center;
+		font-size: 36px;
 }
 
 .map-container {
-	max-width: 1600px;
-	margin: 0 auto;
+	margin: 86px 0 0;
 }
 
 .map-container iframe {
@@ -261,7 +260,7 @@
 
 .sub-line {
 	border-top: 1px solid #e6e6e6;
-    
+		
 }
 
 
