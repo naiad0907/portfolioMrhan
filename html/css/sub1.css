@@ -244,6 +244,26 @@
 
 }
 
+.sub-item {
+	width: 720px; height: 68px ;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.sub .sub-item li {
+	float:left ;
+	width: 33.3%;
+	font-size: 24px; color: #000000;
+}	
+
+.sub .sub-item li.on {
+	color: #572a31;
+}
+
+.sub-line {
+	border-top: 1px solid #e6e6e6;;
+}
+
 
 /* sub5 */
 
