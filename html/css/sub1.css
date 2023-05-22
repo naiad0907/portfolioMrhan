@@ -193,9 +193,9 @@
 		background-image: url(../img/sub1/sv_3.jpg);
 }
 .title {
-  height: 480px;
-  background-repeat: no-repeat;
-  background-size: cover;
+		height: 480px;
+		background-repeat: no-repeat;
+		background-size: cover;
 }
 .title h2 {
 		font-family: 'Roboto'; font-size: 48px; color: #ffffff;
@@ -211,14 +211,14 @@
 .tab-menu.type-two .tab li {width: 50%;}
 
 .map-container {
-	margin: 86px 0 0;
+		margin: 86px 0 0;
     position: relative;
 }
 
 .map-container iframe {
-	width: 100%;
-	height: 800px;
-	border: 0;
+		width: 100%;
+		height: 800px;
+		border: 0;
 }
 
 .search {
@@ -264,7 +264,7 @@
 }
 /* sub4 */
 
-.servi {
+.chainstore {
 	background-image: url(../img/sub1/sv_4.jpg);
 }
 .tab-menu.type-six .tab li {width: 16.6%;}
@@ -273,6 +273,7 @@
 	width: 720px; height: 68px ;
 	margin: 0 auto;
 	margin-top: 100px;
+	
 }
 
 .sub .sub-item li {
@@ -282,14 +283,29 @@
 }	
 
 .sub .sub-item li.on {
-	color: #572a31;
+		color: #572a31;
 }
 
 .sub-line {
-	border-top: 1px solid #e6e6e6;
+		border-top: 1px solid #e6e6e6;
 		
 }
+.franchise h3 {
+	font-size: 30px; color: #000000;
+	margin-top: 170px;
+}
+.franchise p {
+	font-size: 22px; color: #333333;
+	margin-top: 25px;
 
+}
+
+.franchise-box {
+	background-image: url(../img/sub1/service1_bg1.jpg);
+	width: 1400px; height: 306px;
+	margin-top: 32px;
+	text-align: center;
+}
 
 /* sub5 */
 
