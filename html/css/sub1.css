@@ -315,12 +315,17 @@
 }
 
 .franchise .btn-01 {
+	display: inline-block;
 	background-color: #FFF;
 	width: 167px; height: 51px;
 	padding: 10px 34px;
 	font-size: 18px ; color: #000000;
-	
 }
+.franchise .ask li {
+	float: left;
+	width: 690px
+}
+
 /* sub5 */
 
 .community {
