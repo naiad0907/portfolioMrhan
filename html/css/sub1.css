@@ -294,23 +294,24 @@
 	font-size: 30px; color: #000000;
 	margin-top: 170px;
 }
-.franchise p {
+.franchise .dsp {
 	font-size: 22px; color: #333333;
 	margin-top: 25px;
 
 }
 
 .franchise-box {
+	position: relative;
 	background-image: url(../img/sub1/service1_bg1.jpg);
 	width: 1400px; height: 306px;
 	margin-top: 32px;
 	text-align: center;
 }
 .franchise-box h4 {
-	font-size: 40px; color: #ffffff;
+	font-size: 40px; color: #ffffff
 }
 
-.franchise-box p {
+.franchise-box .txt {
 	font-size: 18px; color: #ffffff;
 }
 
@@ -320,11 +321,15 @@
 	width: 167px; height: 51px;
 	padding: 10px 34px;
 	font-size: 18px ; color: #000000;
+	line-height:31px ;
+	margin-top: 40px;
 }
 .franchise .ask li {
 	float: left;
 	width: 690px
 }
+
+
 
 /* sub5 */
 
