@@ -267,15 +267,30 @@
 	background-image: url(../img/sub1/sv_4.jpg);
 }
 .tab-menu.type-six .tab li {width: 16.6%;}
+.sub-tab {
+	margin-top: 100px;
+}
+.sub-tab::after {
+	border-bottom:1px solid #e6e6e6;
+	content:"";
+	display: block;
+}
 
 .sub-item {
-	width: 720px; height: 68px ;
+	width: 720px; 
 	margin: 0 auto;
-	margin-top: 100px;
+	overflow: hidden;
+	
+}
+
+.sub-item .on {
+	border-bottom: 2px solid #572a31;
+
 }
 
 .sub .sub-item li {
 	float:left ;
+	text-align: center;
 	width: 33.3%;
 	font-size: 24px; color: #000000;
 }	
@@ -283,6 +298,8 @@
 .sub .sub-item li.on {
 		color: #572a31;
 }
+
+
 
 .sub-line {
 		border-top: 1px solid #e6e6e6;
