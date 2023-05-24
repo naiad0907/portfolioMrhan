@@ -324,11 +324,14 @@
 	text-align: center;
 }
 .franchise-box h4 {
+	padding-top: 56px;
 	font-size: 40px; color: #ffffff
+
 }
 
 .franchise-box .txt {
 	font-size: 18px; color: #ffffff;
+	margin-top: 24px;
 }
 
 .franchise .btn-01 {
@@ -342,14 +345,21 @@
 }
 .franchise .ask {
 		text-align: center;
-		border: 1px solid #a7a6a6;
+		
+		overflow: hidden;
 }
 
 .franchise .ask li {
-		float: left;
-		width: 690px; height: 120px;
-		padding: 30px;	
-		
+		width: 690px;
+		padding: 30px;
+		border: 1px solid #a7a6a6;	
+		margin-top:20px;
+}
+.franchise .ask li:first-child {
+	float: left;
+}
+.franchise .ask li:last-child {
+	float: right;
 }
 
 .ask li img  {
@@ -362,6 +372,7 @@
 
 .ask li span {
 	font-size: 24px ; color: #003f2d;
+	margin-left: 10px;
 }
 
 /* sub5 */
