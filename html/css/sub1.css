@@ -345,7 +345,6 @@
 }
 .franchise .ask {
 		text-align: center;
-		
 		overflow: hidden;
 }
 
@@ -373,6 +372,27 @@
 .ask li span {
 	font-size: 24px ; color: #003f2d;
 	margin-left: 10px;
+}
+.procedure {
+	background-color: #efefef;
+}
+
+.tbl-normal {
+	width: 1400px;
+	border-top: 3px solid #000000;
+	border-bottom: 1px solid #a7a6a6;
+}
+.tbl-normal th {
+	vertical-align: middle;
+	padding: 15px;
+	border-bottom: 1px solid #a7a6a6;
+	border-right: 1px solid #a7a6a6;
+	font-size: 18px; color: #000000;
+}
+.tbl-normal td {
+	padding: 15px;
+	border-bottom: 1px solid #a7a6a6;
+	font-size: 18px; color: #333333;
 }
 
 /* sub5 */
