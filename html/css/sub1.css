@@ -393,21 +393,41 @@
 }
 .tbl-normal th {
 	vertical-align: middle;
-	padding: 15px;
+	padding: 15px ;
 	border-bottom: 1px solid #a7a6a6;
 	border-right: 1px solid #a7a6a6;
 	font-size: 18px; color: #000000; font-weight: 500;
 	background-color: #f8f8f8;
 }
 .tbl-normal td {
-	padding: 15px 15px 19px;
+	padding: 15px;
+	vertical-align: middle;
 	border-bottom: 1px solid #a7a6a6;
+	border-right: 1px solid #a7a6a6;
 	font-size: 18px; color: #333333;
 	background-color: #ffffff;
 }
 .tbl-normal thead th:last-child {
 	border-right: 0;
 }
+.process-tit {
+	padding-top: 115px;
+	margin-bottom: 30px;
+	font-size: 30px; color: #000000; font-weight: 500;
+}
+.tbl-normal .type-head {
+	padding: 25px 15px;
+}
+.type-body {
+	text-align: center;
+	
+}
+.investment-tit {
+	padding-top: 115px;
+	margin-bottom: 30px;
+	font-size: 30px; color: #000000; font-weight: 500;
+}
+
 /* sub5 */
 
 .community {
