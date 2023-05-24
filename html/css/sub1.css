@@ -261,6 +261,7 @@
   border: 0;
   font-size: 16px;
 }
+
 /* sub4 */
 
 .chainstore {
@@ -277,14 +278,14 @@
 }
 
 .sub-item {
-	width: 720px; 
+	width: 720px; height: 49px;
 	margin: 0 auto;
 	overflow: hidden;
-	
 }
 
 .sub-item .on {
-	border-bottom: 2px solid #572a31;
+	border-bottom: 3px solid #572a31;
+	height: 49px;
 
 }
 
@@ -305,7 +306,7 @@
 		border-top: 1px solid #e6e6e6;
 		
 }
-.franchise h3 {
+.franchise .franchise-tit {
 	font-size: 30px; color: #000000;
 	margin-top: 170px;
 }
@@ -339,9 +340,22 @@
 	line-height:31px ;
 	margin-top: 40px;
 }
+.franchise .ask {
+	display: inline-block;
+	text-align: center;
+	
+
+	
+}
+
 .franchise .ask li {
-	float: left;
-	width: 690px
+		float: left;
+		width: 690px; height: 120px;
+		padding: 30px;
+		
+		
+		
+	
 }
 
 
