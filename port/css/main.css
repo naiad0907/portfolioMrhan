@@ -121,7 +121,7 @@ section {width: 100%;}
 .info .license {padding-bottom: 0;}
 .license ul li {margin-bottom: 10px;}
 .license ul li p span {font-size: 16px; color: #113;}
-.me img {width: 340px; height: 450px;}
+.me img {width: 300px;}
 #container .info2 .skills ul li {margin-bottom: 5px; font-weight: 400;}
 .info2 .info-more {
     padding-bottom: 25px;
@@ -237,8 +237,8 @@ section {width: 100%;}
     background-size: cover;
 }
 .work:nth-child(1) .work-wrap {background-image: url(../img/nl-thumb.jpg);}
-.work:nth-child(2) .work-wrap {background-image: url(../img/tom.png);}
-.work:nth-child(3) .work-wrap {background-image: url(../img/hansol.png);}
+.work:nth-child(2) .work-wrap {background-image: url(../img/2stproject.jpg);}
+.work:nth-child(3) .work-wrap {background-image: url(../img/1stproject.png);}
 .work:nth-child(4) .work-wrap {background-image: url();}
 .work:nth-child(5) .work-wrap {background-image: url();}
 .work:nth-child(odd) .work-wrap{ right: 0;}
@@ -258,12 +258,8 @@ section {width: 100%;}
     width: 500px;
 }
 .work-wrap-hover:hover {opacity: 1;}
-.work:nth-child(1) .work-wrap-btn{justify-content: center;}
-.work:nth-child(4) .work-wrap-btn{width: 300px;}
-.work:nth-child(5) .work-wrap-btn{justify-content: center;}
-.work:nth-child(6) .work-wrap-btn{justify-content: center;}
-.work:nth-child(7) .work-wrap-btn{justify-content: center;}
-.work:nth-child(8) .work-wrap-btn{justify-content: center;}
+.work-wrap .work-wrap-btn{justify-content: center;}
+
 #container .work-wrap-hover .work-wrap-btn a {display: block;
     display: flex; justify-content: center; align-items: center;
     width: 130px; height: 40px;
