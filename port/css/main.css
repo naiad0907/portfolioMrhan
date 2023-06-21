@@ -90,9 +90,9 @@ section {width: 100%;}
 }
 .intro-imgs {display: flex; justify-content: space-between;}
 .intro-imgs img {z-index: -1; position: relative;}
-.intro-img1 {height: 747px; left: -150px; top: -130px;}
+.intro-img1 {height: 747px; left: 1px; top: -130px;}
 .intro-img2 {height: 656px; padding-top: 100px;}
-.intro-img3 {height: 680px; right: 0px; top: -300px;}
+.intro-img3 {height:680px; right: 0px; top: -300px;}
 /* intro-e */
 
 /* about-s */
